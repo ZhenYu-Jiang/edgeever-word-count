@@ -1,0 +1,19 @@
+{
+  "type": "plugin",
+  "id": "com.example.word-count",
+  "name": "Word Count",
+  "version": "1.0.0",
+  "apiVersion": "2",
+  "settingsUi": "host",
+  "description": "Count characters, words, and estimated reading time for the current note.",
+  "locales": {
+    "zh-CN": {
+      "name": "字数统计",
+      "description": "统计当前笔记的字数、字符数与预计阅读时长。"
+    }
+  },
+  "author": "ZhenYu-Jiang",
+  "entry": "./main.js",
+  "platforms": ["web", "desktop"],
+  "permissions": ["editor:read", "ui:commands", "ui:panels", "ui:notices"]
+}
